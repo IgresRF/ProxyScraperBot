@@ -3,7 +3,7 @@ from discord import Embed, File
 from discord.ext import commands
 from discord.ext.commands import cooldown, BucketType
 
-token = "ODc2NzUzNTM5MTkwMzgyNjIy.YRoqXQ.6Stw9nUoD7qnPPwNvKtqnw9jVTc"
+token = ""
 
 client = commands.Bot(command_prefix='+')
 client.remove_command('help')
